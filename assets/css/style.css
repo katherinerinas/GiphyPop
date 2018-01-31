@@ -6,3 +6,18 @@ body{
 	align-self: 
 
 }
+
+#searchButton{background-color:white
+	color:black;
+
+}
+
+.newgif{
+	background-color:white;
+	color:black;
+}
+
+#gifs-go-here{
+	background-color:#777;
+	border-color:white;
+}
