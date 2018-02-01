@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
-var buttonTitles = ["Musicals", "Movies", "Cars","Sailboats"];
-
+var buttonTitles = ["kittens", "movies", "cars","sailboats"];
 
 function displayGiphInfo(){
 

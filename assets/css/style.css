@@ -6,9 +6,9 @@ body{
 	align-self: 
 
 }
-
-#searchButton{background-color:white
-	color:black;
+#searchButton{
+	background-color:limegreen
+	color:white;
 
 }
 
@@ -18,6 +18,11 @@ body{
 }
 
 #gifs-go-here{
-	background-color:#777;
+	background-color:black;
 	border-color:white;
+}
+
+.giff{
+	background-color: limegreen;
+	color:white;
 }
