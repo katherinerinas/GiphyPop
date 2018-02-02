@@ -2,10 +2,7 @@ body{
 	background-color: black;
 	color:white;
 }
-.Searchbar{
-	align-self: 
 
-}
 #searchButton{
 	background-color:limegreen;
 	color:white;
@@ -14,15 +11,18 @@ body{
 
 .newgif{
 	background-color:white;
+	float:left;
 	color:black;
 }
 
 #gifs-go-here{
 	background-color:black;
+	float:left;
 	border-color:white;
 }
 
 .giff{
 	background-color: limegreen;
+	float:left;
 	color:white;
 }
