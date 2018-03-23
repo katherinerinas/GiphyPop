@@ -21,6 +21,12 @@ body{
 	border-color:white;
 }
 
+.item{
+	float:left;
+	border-style: solid;
+	border-color: grey;
+}
+
 .giff{
 	background-color: limegreen;
 	float:left;
