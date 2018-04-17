@@ -30,7 +30,6 @@ giphImage.attr("data-state", "still");
 giphImage.attr("data-animate", results[i].images.fixed_height.url);
 giphImage.attr("data-still", results[i].images.fixed_height_still.url);
 
-
    gifDiv.prepend(p);
    gifDiv.prepend(giphImage);
    $("#gifs-go-here").prepend(gifDiv); 
@@ -50,10 +49,11 @@ for (var i=0; i<buttonTitles.length; i++){
       a.text(buttonTitles[i]);
      $("#giphyButtons").append(a);
    } 
+
 }
 
 $("#searchButton").on("click", function(event){
-event.preventDefault();
+ event.preventDefault();
 
 
 var Giphy= $("#addGiphy").val().trim();
@@ -78,7 +78,7 @@ $(document).on("click", "img", function () {
   if (state=="still"){
     $(this).attr("src", $(this).attr("data-animate"));
     $(this).attr("data-state","animate");
-      } else { 
+  } else { 
     $(this).attr("src", $(this).attr("data-still"));
     $(this).attr("data-state","still");
   
